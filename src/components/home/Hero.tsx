@@ -30,10 +30,12 @@ export default function Hero() {
           <span className="gradient-text">Real Income</span>
         </h1>
 
-        <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-4 leading-relaxed">
           The all-in-one affiliate marketing & dropshipping platform. Promote 10,000+ products,
           earn up to 25% commission, and track everything in real-time.
         </p>
+
+        <p className="text-xs text-gray-500 mb-6">Impact-Site-Verification: 929cefb2-3949-441f-a1af-7e69fe26be74</p>
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">

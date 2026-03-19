@@ -11,7 +11,6 @@ import CTA from "@/components/home/CTA";
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      <p className="text-center text-xs text-gray-500 py-1 bg-black/30">Impact-Site-Verification: 929cefb2-3949-441f-a1af-7e69fe26be74</p>
       <Navbar />
       <Hero />
       <Stats />
