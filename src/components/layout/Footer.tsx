@@ -29,7 +29,6 @@ export default function Footer() {
           {/* Links */}
           {[
             { title: "Platform", links: ["Products", "Dashboard", "Analytics", "Link Builder", "Payouts"] },
-            { title: "Company", links: ["About", "Blog", "Careers", "Press", "Contact"] },
             { title: "Legal", links: ["Privacy Policy", "Terms of Service", "Cookie Policy", "Affiliate Agreement"] },
           ].map((col) => (
             <div key={col.title}>
@@ -43,6 +42,28 @@ export default function Footer() {
               </ul>
             </div>
           ))}
+
+          {/* Company */}
+          <div>
+            <h4 className="text-white font-semibold text-sm mb-4">Company</h4>
+            <ul className="space-y-2">
+              {["About", "Blog", "Careers", "Press"].map((link) => (
+                <li key={link}>
+                  <a href="#" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">{link}</a>
+                </li>
+              ))}
+              <li>
+                <a
+                  href="https://www.instagram.com/kunal_parasharr?igsh=MXU3dDUwM2FjcGJmag%3D%3D&utm_source=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-pink-400 text-sm transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="border-t border-white/5 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
