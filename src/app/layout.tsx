@@ -5,9 +5,6 @@ import { Providers } from "./providers";
 export const metadata: Metadata = {
   title: "AffiliateHub — Turn Every Link Into Real Income",
   description: "The modern affiliate marketing & dropshipping platform. Promote 10,000+ products, earn up to 25% commission.",
-  other: {
-    "Impact-Site-Verification": "929cefb2-3949-441f-a1af-7e69fe26be74",
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
